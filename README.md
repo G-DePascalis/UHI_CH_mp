@@ -2,7 +2,7 @@
 An open-source framework for the quantification of Urban Heat Islands and Pedestrian Comfort in Switzerland
 
 ## Introduction
-In this project, open-source dataset are leveraged to build a framework for visualizing urban heat isaland (UHI) effect and demonstrate the application of scenarios on 1 case-study representative of the Swiss urban area. 
+In this project, Swiss open source datasets are used to quantify urban heat islands (UHI) as well as pedestrian comfort. 
 
 ## Usage of codes
 ### Open-source files and import to QGIS

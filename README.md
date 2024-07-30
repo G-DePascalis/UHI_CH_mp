@@ -49,3 +49,13 @@ Each modification is signaled with *#TODO*.
 - directory_path = r"---" : Name of the new directory to be created by the simulation
 - climate_file = r"---.cli" : File path of the climate file
 - horizon_file = r"---.hor" : File path of the horizon file
+
+### Python libraries
+The required libraries to import are listed in the *requirements.txt* file
+
+### Results
+The resulted .xml file is under the directory path defined in "main_code"
+And resulted temperature layers could be found with prefix "All_AST" in the .gpkg file used
+
+## Bakcground
+Olivier Chavanne established a framework to process and analyze information of all buildings in the area of study and simulate the surface temperature of those buildings through Citysim. 

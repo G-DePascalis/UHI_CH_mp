@@ -2,7 +2,7 @@
 An open-source framework for the quantification of Urban Heat Islands and Pedestrian Comfort in Switzerland
 
 ## Introduction
-In this project, Swiss open source datasets are used to quantify urban heat islands (UHI) as well as pedestrian comfort. 
+In this project, Swiss open-source datasets are used to quantify urban heat islands and pedestrian comfort, and to demonstrate the application of different scenarios on a case study representative of the Swiss landscape.
 
 ## Usage of codes
 ### Open-source files and import to QGIS

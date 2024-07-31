@@ -82,7 +82,7 @@ The Universal Thermal Climate Index (UTCI) is implemented because it can assess 
 2. https://github.com/ZetongLiu/UHI_CH_sp
 3. https://github.com/kaemco/CitySim-Solver/wiki/The-district#groundsurface
 4. Silvia Coccolo, Bioclimatic Design of Sustainable Campuses using Advanced Optimisation
-Methods, 2017, doi: [https : / / doi . org / 10 . 5075 / epfl - thesis - 7756]([url](https://doi.org/10.5075/epfl-thesis-7756)), URL: [http://infoscience.epfl.ch/record/231147]([url](http://infoscience.epfl.ch/record/231147))
+Methods, 2017, doi: https://doi.org/10.5075/epfl-thesis-7756, URL: http://infoscience.epfl.ch/record/231147
   
 
 

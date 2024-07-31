@@ -1,5 +1,5 @@
 # Urban Heat Island and Pedestrian Comfort in Switzerland (CH)
-An open-source framework for the quantification of Urban Heat Islands and Pedestrian Comfort in Switzerland
+An open-source framework for the quantification of Urban Heat Islands (UHIs) and Pedestrian Comfort in Switzerland
 
 ## Usage of codes
 ### Open-source files and import to QGIS

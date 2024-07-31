@@ -36,6 +36,14 @@ Create a new GeoPackage file. Add layers with the "export features" option of QG
 - *roof* : swissbuildings3D features of roofs of all buildings in the area of study
 - *streets*: swisstlm 3D features of streets in the area of study
 - *green*: features of green areas in the area of study
+- *trees*: point features of existing trees in the study area (These data can come from open-source datasets if they exist for the study area)
+
+Layers for creating scenarios:
+- *sidewalk_geneva*: polygons representing the sidewalk in Geneva
+- *fosse_tp*: polygons representing soil and stone pits
+- *fosse_impluvium*: polygons representing Stockholm pits
+- *soil_green*: polygons representing green spaces
+- *new_trees*: point features of new trees in the study area
 
 ### Code custom modifications
 In addition to the newly created GeoPackage, a climatic and a horizon file must be provided and imported on the same directory as where the software code was cloned.

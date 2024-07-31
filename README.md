@@ -1,9 +1,6 @@
 # Urban Heat Island and Pedestrian Comfort in Switzerland (CH)
 An open-source framework for the quantification of Urban Heat Islands and Pedestrian Comfort in Switzerland
 
-## Introduction
-In this project, Swiss open-source datasets are used to quantify urban heat islands (UHI) and pedestrian comfort, and to demonstrate the application of different scenarios on a case study representative of the Swiss landscape.
-
 ## Usage of codes
 ### Open-source files and import to QGIS
 Choose the geographical zone (tile, canton) for the area of study. 
@@ -66,10 +63,10 @@ The required libraries to import are listed in the *requirements.txt* file
 The resulted .xml file is under the directory path defined in "main_code". There are three different result layers with prefix: "All_AST", "Tsat_@_Tmax", "Pedestrian_@_Ta_max" in the .gpkg file used.
 
 ### Bakcground
-Olivier Chavanne established a framework to process and analyze information of all buildings in the area of study and simulate the surface temperature of those buildings through Citysim. Zetong Liu added the ground in the area of study as well as new pavements: Aspahlt, Concrete, Green and Pavement. To measure UHIs and pedestrian comfort, it is necessary to add the ground around buildings, include trees and pedestrians in the simulation file, and introduce new indicators to quantify UHIs and pedestrian comfort.
+Olivier Chavanne established a framework to process and analyze information of all buildings in the area of study and simulate the surface temperature of those buildings through Citysim. Zetong Liu added the ground in the area of study as well as new pavements: Aspahlt, Concrete, Green and Pavement. The following elements are added to the current framework. First, a baseline representing a rural area corresponding to the coordinates of the study area without buildings is added. Next, the ground is added around the buildings to create closed surfaces. Tree and pedestrian representations are added to the simulation file. Finally, new indicators to quantify UHIs and pedestrian comfort are introduced.
 
 ### Trees and pedestrian
-The addition of trees and pedestrians is based on [Coccolo (2017)](https://infoscience.epfl.ch/entities/publication/7a844472-d333-4867-8364-48772278a7a5). The aim is to convert points from the geopackage file into pedestrian and tree geometries in the simulation file. The pedestrian geometries are created to calculate the Mean Radiant Temperature.
+The addition of trees and pedestrians is based on [Coccolo (2017)](https://infoscience.epfl.ch/entities/publication/7a844472-d333-4867-8364-48772278a7a5). The aim is to convert points from the geopackage file into pedestrian and tree geometries in the simulation file. Pedestrian geometries are created to calculate the Mean Radiant Temperature.
 
 ### UHI inidcators
 Two new indicators are added to quantify UHIs. They are selected for the warmest average annual day at its maximum temperature. These indicators are surface temperature "Ts" and sol-air temperature "Tsol-air", which aim to capture the convective effects of the air.

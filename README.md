@@ -69,12 +69,20 @@ The resulted .xml file is under the directory path defined in "main_code". There
 Olivier Chavanne established a framework to process and analyze information of all buildings in the area of study and simulate the surface temperature of those buildings through Citysim. Zetong Liu added the ground in the area of study as well as new pavements: Aspahlt, Concrete, Green and Pavement. To measure UHIs and pedestrian comfort, it is necessary to add the ground around buildings, include trees and pedestrians in the simulation file, and introduce new indicators to quantify UHIs and pedestrian comfort.
 
 ### Trees and pedestrian
-The addition of trees and pedestrians is based on the doctoral thesis of Silvia Coccolo. The aim is to convert points from the geopackage file into pedestrian and tree geometries in the simulation file. The pedestrian geometries are created to calculate the Mean Radiant Temperature.
+The addition of trees and pedestrians is based on [Coccolo (2017)](https://infoscience.epfl.ch/entities/publication/7a844472-d333-4867-8364-48772278a7a5). The aim is to convert points from the geopackage file into pedestrian and tree geometries in the simulation file. The pedestrian geometries are created to calculate the Mean Radiant Temperature.
 
 ### UHI inidcators
 Two new indicators are added to quantify urban heat islands. They are selected for the warmest average annual day at its maximum temperature. These indicators are surface temperature "Ts" and soil-air temperature "Tsol-air", which aim to capture the convective effects of the air.
 
 ### Pedestrian comfort indicators
 The Universal Thermal Climate Index (UTCI) is implemented because it can assess huma thermal perception in all climates. The annual number of hours of thermal comfort is calculated using this indicator.
+
+## Reference
+1. https://github.com/ochavanne/CAD-O
+2. https://github.com/ZetongLiu/UHI_CH_sp
+3. https://github.com/kaemco/CitySim-Solver/wiki/The-district#groundsurface
+4. Silvia Coccolo, Bioclimatic Design of Sustainable Campuses using Advanced Optimisation
+Methods, 2017, doi: [https : / / doi . org / 10 . 5075 / epfl - thesis - 7756]([url](https://doi.org/10.5075/epfl-thesis-7756)), URL: [http://infoscience.epfl.ch/record/231147]([url](http://infoscience.epfl.ch/record/231147))
+  
 
 

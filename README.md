@@ -37,6 +37,7 @@ Create a new GeoPackage file. Add layers with the "export features" option of QG
 - *streets*: swisstlm 3D features of streets in the area of study
 - *green*: features of green areas in the area of study
 - *trees*: point features of existing trees in the study area (These data can come from open-source datasets if they exist for the study area)
+- *pedestrian*: point features of pedestrian in the study area
 
 Layers for creating scenarios:
 - *sidewalk_geneva*: polygons representing the sidewalk in Geneva

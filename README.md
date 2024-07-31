@@ -63,8 +63,7 @@ Each modification is signaled with *#TODO*.
 The required libraries to import are listed in the *requirements.txt* file
 
 ### Results
-The resulted .xml file is under the directory path defined in "main_code"
-And resulted temperature layers could be found with prefix "All_AST" in the .gpkg file used
+The resulted .xml file is under the directory path defined in "main_code". There are three different result layers with prefix: "All_AST", "Tsat_@_Tmax", "Pedestrian_@_Ta_max" in the .gpkg file used.
 
 ## Bakcground
-Olivier Chavanne established a framework to process and analyze information of all buildings in the area of study and simulate the surface temperature of those buildings through Citysim. 
+Olivier Chavanne established a framework to process and analyze information of all buildings in the area of study and simulate the surface temperature of those buildings through Citysim. Zetong Liu added the ground in the area of study as well as new pavements: Aspahlt, Concrete, Green and Pavement. To measure UHIs and pedestrian comfort, it is necessary to add the ground around buildings, include trees and pedestrians in the simulation file, and introduce new indicators to quantify UHIs and pedestrian comfort.

@@ -72,7 +72,7 @@ Olivier Chavanne established a framework to process and analyze information of a
 The addition of trees and pedestrians is based on [Coccolo (2017)](https://infoscience.epfl.ch/entities/publication/7a844472-d333-4867-8364-48772278a7a5). The aim is to convert points from the geopackage file into pedestrian and tree geometries in the simulation file. The pedestrian geometries are created to calculate the Mean Radiant Temperature.
 
 ### UHI inidcators
-Two new indicators are added to quantify urban heat islands. They are selected for the warmest average annual day at its maximum temperature. These indicators are surface temperature "Ts" and soil-air temperature "Tsol-air", which aim to capture the convective effects of the air.
+Two new indicators are added to quantify UHIs. They are selected for the warmest average annual day at its maximum temperature. These indicators are surface temperature "Ts" and sol-air temperature "Tsol-air", which aim to capture the convective effects of the air.
 
 ### Pedestrian comfort indicators
 The Universal Thermal Climate Index (UTCI) is implemented because it can assess huma thermal perception in all climates. The annual number of hours of thermal comfort is calculated using this indicator.
